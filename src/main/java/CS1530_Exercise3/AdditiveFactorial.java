@@ -45,7 +45,7 @@ public class AdditiveFactorial {
  			}
  		
  			//***********
- 			if(args[1] != null)
+ 			if(args[1] != null && Integer.parseInt(args[1]) > 0)
  			{
  				if(name.equals(one))
  	 			{
@@ -67,6 +67,11 @@ public class AdditiveFactorial {
 	 					System.exit(1);
 	 			  	  }
  	 			}	
+ 	 		}
+ 	 		else
+ 	 		{
+ 	 			System.out.println("Second argument should be a positive integer!");
+ 	 			System.exit(2);
  	 		}
  	 	}
  	}
