@@ -2,7 +2,7 @@ package CS1530_Exercise3;
 public class AdditiveFactorial {
 	public static int Trig(int num) 
 	{
-		if (num <= 1) {
+		if(num <= 1) {
 			return 1;
 		} 
 		else 
@@ -12,7 +12,7 @@ public class AdditiveFactorial {
 	}
     public static long Lazy(long num) 
     {
-    	if (num < 1) 
+    	if(num < 1) 
     	{
     		return 1;
     	} 
